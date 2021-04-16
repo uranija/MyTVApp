@@ -12,10 +12,10 @@ During these times and due to pandemic many people are staying at home and watch
 
 ## Features
 
-●	App retrieves information from the TMDb about currently running and most popular TV shows  
-●	 User can save information to a local database about currently running and most popular TV shows
-●	App shows information about currently most popular TV shows
-●	App shows information what TV shows are currently on the air 
-●	App shows a detail page of specific TV show and suggests some similar TV shows to watch.
+- ●	 App retrieves information from the TMDb about currently running and most popular TV shows  
+- ●	 User can save information to a local database about currently running and most popular TV shows
+- ●  App shows information about currently most popular TV shows
+- ●	 App shows information what TV shows are currently on the air 
+- ●	 App shows a detail page of specific TV show and suggests some similar TV shows to watch.
 
 
