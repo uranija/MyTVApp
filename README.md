@@ -16,5 +16,14 @@ During these times and due to pandemic many people are staying at home and watch
 -    App shows information about currently most popular TV shows
 - 	 App shows information what TV shows are currently on the air 
 - 	 App shows a detail page of specific TV show and suggests some similar TV shows to watch.
-
-
+ 
+ 
+  ## Libraries
+  
+  - App uses Room persistence library to save data in local database. A user will be able to save their favorite shows in local database.
+  - App uses Picasso to handle the loading and caching of images. 
+  - Retrofit to fetch the information from the internet using TMDb Api. 
+  - App is using materialfavoritebutton Library to tap heart button to add to favorite TV shows.
+  - App has a widget
+  - App has integrated Google Mobile Ads SDK and uses banner add format. 
+  - It  also use google analytics.
