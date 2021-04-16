@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jolita.mytvapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+        <activity android:name="com.jolita.mytvapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jolita.mytvapp.DetailActivity"
+            android:label="@string/detail_name"
+            android:parentActivityName="com.jolita.mytvapp.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jolita.mytvapp.MainActivity" />
+        </activity>
+                <activity
+            android:name="com.jolita.mytvapp.SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName="com.jolita.mytvapp.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jolita.mytvapp.MainActivity" />
+        </activity>
+
+        <service android:name="com.jolita.mytvapp.widget.UpdateTVService" />
+
+        <service
+            android:name="com.jolita.mytvapp.widget.TVWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver
+            android:name="com.jolita.mytvapp.widget.TVWidgetProvider"
+            android:icon="@drawable/tv_show">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE2" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tv_widget_info" />
+        </receiver>
+    </application>
+
+
+
+
+
+</manifest>

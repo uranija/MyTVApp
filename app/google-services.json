@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498648109605",
+    "project_id": "mytvapp-a464f",
+    "storage_bucket": "mytvapp-a464f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498648109605:android:1f0bc3eafb61de761825cc",
+        "android_client_info": {
+          "package_name": "com.jolita.mytvapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498648109605-lepujkgjeu2uhgsnkqrkn5glop1c2d1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArVyEK476410zlVYjfMlzBrEjTMBhQzyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498648109605-lepujkgjeu2uhgsnkqrkn5glop1c2d1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

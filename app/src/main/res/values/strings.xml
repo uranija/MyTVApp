@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyTVApp</string>
+    <string name="detail_name">TV</string>
+    <string name="action_settings">Settings</string>
+    <string name="rating">User Rating</string>
+    <string name="tv_poster">TV Poster</string>
+    <string name="youtube_poster">Youtube Poster</string>
+    <string name="tv_title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="tv_overview">Overview</string>
+    <string name="pref_sort_tv_label">Sort TV</string>
+    <string name="pref_sort_tv_key">sortTV</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_airing_today">Airing Today</string>
+    <string name="favorite" translatable="false">Favorite TV</string>
+    <string name="trailer">TV Trailers</string>
+    <string name="review">Reviews</string>
+    <string name="SimilarTV"> Similar TV Shows</string>
+    <string name="tv_favorite">Add to your favorite tv shows list!</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">Select tv show to show</string>
+    <string name="review_text">Review</string>
+    <string name="save_favorite">Save favorite</string>
+    <string name="youtube_icon">Youtube icon</string>
+    _
+</resources>
