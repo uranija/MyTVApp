@@ -27,3 +27,17 @@ During these times and due to pandemic many people are staying at home and watch
   - App has a widget
   - App has integrated Google Mobile Ads SDK and uses banner add format. 
   - It  also use google analytics.
+
+[
+![firstpage](https://user-images.githubusercontent.com/26045797/117729929-3dafcc80-b1f4-11eb-8d74-8e0f78463065.jpg)
+![secondpage](https://user-images.githubusercontent.com/26045797/117729969-4bfde880-b1f4-11eb-8b56-35b251b09e12.jpg)
+![treciaspage](https://user-images.githubusercontent.com/26045797/117730006-5b7d3180-b1f4-11eb-96da-91fe0282d7ba.jpg)
+![Screenshot_20210511-005522_MyTVApp - Copy](https://user-images.githubusercontent.com/26045797/117730025-646e0300-b1f4-11eb-8612-ed651d741c93.jpg)
+![Screenshot_20210510-204601_MyTVApp](https://user-images.githubusercontent.com/26045797/117730043-69cb4d80-b1f4-11eb-9a9b-01ea63335df5.jpg)
+![Screenshot_20210510-204628_MyTVApp](https://user-images.githubusercontent.com/26045797/117730050-6df76b00-b1f4-11eb-9f35-2a6db1a7e16d.jpg)
+
+
+
+
+
+](url)
